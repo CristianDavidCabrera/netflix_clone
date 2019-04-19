@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>0827FD4F-7741-4562-BFDC-18CD47A7A1A9-42362-00033070AEF97757</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-with-hovers" transform="translate(-700.000000, -1190.000000)">
+            <g id="group-movies" transform="translate(58.000000, 1151.000000)">
+                <g id="movie-square-hover">
+                    <g transform="translate(444.000000, 35.000000)">
+                        <g id="btn-add" transform="translate(199.000000, 5.000000)">
+                            <circle id="Oval" stroke="#FFFFFF" stroke-width="0.5" cx="7" cy="7" r="7"></circle>
+                            <path d="M7.75,7.75 L7.75,10.75 C7.75,10.8880712 7.63807119,11 7.5,11 L6.5,11 C6.36192881,11 6.25,10.8880712 6.25,10.75 L6.25,7.75 L3.25,7.75 C3.11192881,7.75 3,7.63807119 3,7.5 L3,6.5 C3,6.36192881 3.11192881,6.25 3.25,6.25 L6.25,6.25 L6.25,3.25 C6.25,3.11192881 6.36192881,3 6.5,3 L7.5,3 C7.63807119,3 7.75,3.11192881 7.75,3.25 L7.75,6.25 L10.75,6.25 C10.8880712,6.25 11,6.36192881 11,6.5 L11,7.5 C11,7.63807119 10.8880712,7.75 10.75,7.75 L7.75,7.75 Z" id="icon-plus" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

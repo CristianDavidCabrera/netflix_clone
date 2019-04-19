@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>1BF3C93F-C3EF-4DCC-A68C-E651593DE13B-42362-00033070AEF93B9D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-with-hovers" transform="translate(-509.000000, -1220.000000)">
+            <g id="group-movies" transform="translate(58.000000, 1151.000000)">
+                <g id="movie-square-hover">
+                    <g transform="translate(444.000000, 35.000000)">
+                        <g id="text-over">
+                            <g transform="translate(7.000000, 35.000000)">
+                                <g id="btn-play">
+                                    <g transform="translate(0.550562, 0.000000)">
+                                        <ellipse id="Oval" stroke="#FFFFFF" fill-opacity="0.506538723" fill="#000000" cx="9.35955056" cy="9.36734694" rx="9.35955056" ry="9.36734694"></ellipse>
+                                        <path d="M11.1890859,7.09855162 L13.8405983,11.5830432 C14.1216864,12.0584461 13.964163,12.6717032 13.48876,12.9527912 C13.3346308,13.0439221 13.1588601,13.091998 12.9798052,13.091998 L7.6767802,13.091998 C7.12449545,13.091998 6.6767802,12.6442828 6.6767802,12.091998 C6.6767802,11.9129431 6.72485611,11.7371724 6.815987,11.5830432 L9.46749948,7.09855162 C9.74858751,6.62314867 10.3618446,6.46562529 10.8372476,6.74671332 C10.9822975,6.83247591 11.1033233,6.95350172 11.1890859,7.09855162 Z" id="Triangle" fill="#E50A13" transform="translate(10.328293, 9.367347) rotate(90.000000) translate(-10.328293, -9.367347) "></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

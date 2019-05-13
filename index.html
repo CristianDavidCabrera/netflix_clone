@@ -10,13 +10,40 @@
     <meta property="og:description" content="Learning project" />
     <meta name="author" content="Cristian David" />
     <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
-
     <title>Netflix Clone</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <body>
-    <header></header>
+    <header>
+            <navbar id="navbar" class="app-navbar no-search">
+                    <div class="navbar-logo">
+                        <a href="/">
+                            <img src="./images/icons/logo-netflix.svg" alt="logo-netflix">
+                        </a>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="https://www.google.es" target="_blank">Home</a></li>
+                            <li><a href="https://www.google.es" target="_blank">TV Shows</a></li>
+                            <li><a href="https://www.google.es" target="_blank">Movies</a></li>
+                            <li><a href="https://www.google.es" target="_blank">Recently Added</a></li>
+                            <li><a href="https://www.google.es" target="_blank">My List</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-container">
+                        <form id="search-form" class="filter-input">
+                            <input type="text" placeholder="search your serie" class="input search">
+                            <button type="submit" class="button search">Search</button>
+                        </form>
+                    </div>
+                    <div class="navbar-icon">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                </navbar>
+    </header>
     <main></main>
     <footer></footer>
 </body>

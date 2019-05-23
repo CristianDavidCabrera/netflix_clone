@@ -1,0 +1,12 @@
+.back-btn {
+    opacity: 0;
+    transition: all .5s;
+    position: absolute;
+    top: 72px;
+    left: 45px;
+}
+.no-bg:hover {
+    .back-btn {
+        opacity: 1;
+    }
+}

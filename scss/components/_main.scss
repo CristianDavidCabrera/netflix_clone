@@ -1,0 +1,201 @@
+//SEARCH
+.main-search {
+    margin-top: 72px;
+}
+
+//Carousels
+main {
+    margin-top: 84px;
+    .section-v-title {
+        height: 24px;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.16px;
+        line-height: 24px;
+        margin-left: 58px;
+    }
+    .section-h-title {
+        height: 24px;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.16px;
+        line-height: 24px;
+        margin-left: 58px;
+    }
+    .movie-v-container, .movie-h-container {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        .movie-v, .movie-h {
+            margin-right: 5px;
+            position: relative;
+        }
+        .movie-v:first-child {
+            margin-left: 58px;
+        }
+        .movie-h:first-child {
+            margin-left: 60px;
+        }
+        .img-overlay-v, .img-overlay-h {
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            background-color: rgba($secondary-color,0.6);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            transition-duration: .5s;
+        }
+    }
+}
+//Vertical images carousel
+.carousel-v-container {
+    margin-bottom: 60px;
+    .movie-v-container {
+        margin-top: 11px;
+    }
+}
+
+
+//Horizontal images carousel
+.carousel-h-container{
+    height: 169px;
+    margin-bottom: 40px;
+    .movie-h-container {
+        margin-top: 12px;
+        .progress-bar {
+            height: 4px;
+            width: 132px;
+            background-color: $progress-bar;
+            margin: 2px auto 0 auto;
+            .progress-status {
+                height: 4px;
+                width: 70px;
+                background-color: $progress-status;
+            }
+        }
+    }
+}
+//Search Horizontal images carousel
+.h-container-search {
+    margin-bottom: 53px;
+}
+
+//hide the scroll bar
+.movie-v-container::-webkit-scrollbar,
+ .movie-h-container::-webkit-scrollbar {
+    display: none;
+  }
+.movie-v-container {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+//Hide Progress and status bar
+.hide {
+    opacity: 0;
+}
+
+//HOVER
+
+//Hover of movies
+.movie-v:hover, .movie-h:hover {
+    .img-overlay-v, .img-overlay-h {
+        opacity: 1;
+    }
+}
+
+//Vertical movie info hover
+.img-overlay-v {
+    height: 433px;
+    padding: 18px 11px;
+    .btn-play {
+        margin-bottom: 7px; 
+    }
+    .hover-title {
+        font-size: 16px;
+        letter-spacing: 1.2px;
+        line-height: 19px;
+        margin-bottom: 6px;
+    }
+    .movie-info {
+        display: flex;
+        align-items: baseline;
+        .match {
+            color: $match;
+            font-size: 14px;
+            letter-spacing: 0.4px;
+            line-height: 17px;
+            margin-right: 3px;
+        }
+        .age-rate-s {
+            font-size: 14px;
+            letter-spacing: 0.3px;
+            line-height: 17px;
+            padding: 1px 5px;
+            border: 1px solid $primary-color;
+            margin-right: 3px;
+        }
+        .time {
+            font-size: 14px;
+            letter-spacing: 0.3px;
+            line-height: 17px;
+            margin-right: 3px;
+        }
+    }
+    .description-v {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 6px;
+    }
+}
+
+//Horizontal movies info hover
+.img-overlay-h {
+    height: 121px;
+    padding: 7px 11px;
+    .btn-add {
+        width: 14px;
+        height: 14px;
+        align-self: flex-end;
+    }
+    .btn-play {
+        width: 19px;
+        height: 19px; 
+    }
+    .hover-h-title {
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 1.2px;
+        line-height: 19px;
+    }
+    .movie-info {
+        display: flex;
+        align-items: baseline;
+        .match {
+            color: $match;
+            font-size: 8px;
+            letter-spacing: 0.4px;
+            margin-right: 3px;
+        }
+        .age-rate-s {
+            font-size: 8px;
+            letter-spacing: 0.3px;
+            padding: 1px 5px;
+            border: 1px solid $primary-color;
+            margin-right: 3px;
+        }
+        .time {
+            font-size: 8px;
+            letter-spacing: 0.3px;
+            margin-right: 3px;
+        }
+    }
+    .description-h{
+        font-size: 8px;
+        margin-top: 2px;
+    }
+}
